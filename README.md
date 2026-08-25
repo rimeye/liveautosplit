@@ -8,7 +8,7 @@
 - 每次出现 `STAGE CLEAR` 画面时自动分段。
 - 第 6 关的大坦克被击毁时触发最终分段。
 - 回到标题画面时自动重置计时器。
-- 支持 Mesen 2.1.1、Mesen 0.9.9、MesenRTA（0.0.7）和 FCEUX 2.6.6（64 位）。
+- 支持 Mesen 2.1.1、Mesen 0.9.9、MesenRTA（0.0.7），以及 `fceux-2.6.6-y320-Win64-汉化版 - Emucheat`。
 
 ## 使用方法
 
@@ -33,7 +33,7 @@
 ## 注意事项
 
 - Mesen 版本必须与脚本支持的版本一致。脚本会通过 `MesenCore.dll` 的 SHA-1 自动识别版本，未知版本不会正常工作。
-- FCEUX 需要使用 64 位版本，并且版本为 2.6.6。
+- FCEUX 仅支持 `fceux-2.6.6-y320-Win64-汉化版 - Emucheat`，其他 FCEUX 构建不保证兼容。
 - 请先启动模拟器，再让 LiveSplit 尝试连接游戏进程。
 - 脚本刷新频率为每秒 60 次；实际计时结果仍取决于 LiveSplit、模拟器和 ROM 设置。
 
